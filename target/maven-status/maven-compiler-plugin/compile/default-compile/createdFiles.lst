@@ -1,0 +1,11 @@
+de\teddy\missilesystem\inventory\EInventory.class
+de\teddy\missilesystem\events\InventoryClickEvents.class
+de\teddy\missilesystem\commands\MessageCommand.class
+de\teddy\missilesystem\commands\MissileCommand.class
+de\teddy\missilesystem\placeholder\MissileExpansion.class
+de\teddy\missilesystem\commands\TargetCommand.class
+de\teddy\missilesystem\events\MissileEvents.class
+de\teddy\missilesystem\inventory\content\MissileShopFiller.class
+de\teddy\missilesystem\Main.class
+de\teddy\missilesystem\inventory\content\IContentFiller.class
+de\teddy\missilesystem\missile\Missile.class

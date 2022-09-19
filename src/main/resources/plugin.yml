@@ -1,0 +1,28 @@
+name: MissileSystem
+version: '${project.version}'
+main: de.teddy.missilesystem.Main
+api-version: 1.18
+
+depend:
+  - Vault
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  missile_reload:
+    permission: missile.admin.reload
+    usage: /missile_reload
+    description: Reload le plugin
+  missile:
+    permission: missile.command.missile
+    usage: /missile
+    description: Ouvre le menu de missile
+  target:
+    permission: missile.command.target
+    usage: /target {<X> <Y> <Z>}
+    description: Target la cible du missile
+  setmessage:
+    permission: missile.command.setmessage
+    usage: /setmessage [launch/impact] <message>
+    description: message à envoyé lorsque le misisle touche sa cible

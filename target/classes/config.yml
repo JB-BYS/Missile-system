@@ -1,0 +1,76 @@
+speed_modifier: 1.0
+
+missiles:
+  small_missile:
+    price: 32
+    explosion_strength: 3
+    flight_time: 5
+    slot: 10
+    display_name: "§2Small Missile"
+    lore:
+      - "§7Price: §a$32"
+      - "§7Explosion strength: §a3"
+      - "§7Flight time: §a5"
+
+  medium_missile:
+    price: 64
+    explosion_strength: 5
+    flight_time: 8
+    slot: 12
+    display_name: "§eMedium Missile"
+    lore:
+      - "§7Price: §a$64"
+      - "§7Explosion strength: §a5"
+      - "§7Flight time: §a8"
+
+  large_missile:
+    price: 128
+    explosion_strength: 9
+    flight_time: 12
+    slot: 14
+    display_name: "§cLarge Missile"
+    lore:
+      - "§7Price: §a$128"
+      - "§7Explosion strength: §a9"
+      - "§7Flight time: §a12"
+
+  huge_missile:
+    price: 256
+    explosion_strength: 12
+    slot: 16
+    flight_time: 16
+    display_name: "§4Huge Missile"
+    lore:
+      - "§7Price: §a$256"
+      - "§7Explosion strength: §a12"
+      - "§7Flight time: §a16"
+
+
+messages:
+  no_missile_in_hand: "§4You need to hold a missile in your hand!"
+  not_targeting_block: "§4You need to target a block!"
+  no_target_selected: "§4You need to select a target!"
+
+  look_at_block_or_loc: "§4You need to look at a block or use a location!"
+  use_numbers_as_coordinates: "§4You need to use numbers for the coordinates!"
+
+  target_to: "§aTarget set to %x% %y% %z%"
+  given_confirm_message: "§aGiven %amount% %missile%s to %player%"
+  taken_confirm_message: "§aTaken %amount% Missiles from %player%"
+  bought_confirm_message: "You bought a %missile%§r!"
+
+  not_player: "§4You must be a player to use this command!"
+  player_not_found: "§4Player not found!"
+  missile_not_found: "§4Missile not found!"
+  missile_not_found_reopen: "§4Could not find missile, please reopen the inventory!"
+  amount_not_valid: "§4Amount is not a number!"
+  no_permission: "§4You don't have permission the permission to use this!"
+
+  not_enough_money: "You don't have enough money!"
+  error_world_null: "§4An error has occurred, the world is strangely null"
+  error_unknown_type: "Unknown type! Please use either \"launch\" or \"impact\"!"
+  message_saved: "§aMessage saved: §f%message%"
+
+  click_here_to_apply_loc: "§aClick [here] to apply the new target"
+
+  usage_message: "§4Usage: /message <player> <message>"
